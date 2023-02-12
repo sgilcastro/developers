@@ -1,0 +1,29 @@
+<?php
+  $user = $this->_task;
+
+?>
+
+<html>
+  <head>
+    <title>Modify User</title>
+  </head>
+  
+  <body>
+    <form action="/web/taskedit" method="POST">
+    Titulo:<input name="newtitulo" type="text" placeholder=<?php echo $user['titulo'];?> ><br>
+    Descripcio:<input name="newdescripcion" type="text" placeholder=<?php echo $user['descripcion'];?>><br>
+    Estado:<input name="newestado" type="text" placeholder=<?php echo $user['estado'];?>><br>
+    Hora de inicio:<input name="newhora_inicio" type="text" placeholder=<?php echo $user['hora_inicio'];?>><br>
+    Hora de fin:<input name="newhora_fin" type="password" placeholder=<?php echo $user['hora_fin'];?>><br>
+  
+    </select><br>
+    <input type="submit" value="Enviar">
+    </form>
+    <form action="/web/deleteuser" method="POST">
+    </select><br>
+    <input type="submit" value="Delete user">
+  </body>
+
+
+
+</html>

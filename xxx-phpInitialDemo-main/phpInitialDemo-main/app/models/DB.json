@@ -1,0 +1,175 @@
+[
+    {
+        "id_user": 1,
+        "name": "Susana",
+        "surname": "Gil",
+        "userName": "sgil",
+        "email": "susanagilcastro@gmail.com",
+        "pw": "1111",
+        "tareas": [
+            {
+                "titulo": "Mirar apuntes php",
+                "descripcion": "",
+                "estado": "Pendiente",
+                "hora_inicio": "2023-01-11T19:00:00.000Z",
+                "hora_fin": "2023-01-11T19:00:00.000Z"
+            },
+            {
+                "titulo": "Comprar pan",
+                "descripcion": "",
+                "estado": "Pendiente",
+                "hora_inicio": "2023-01-11T19:00:00.000Z",
+                "hora_fin": "2023-01-11T19:00:00.000Z"
+            },
+            {
+                "titulo": "sdfsdfsdf",
+                "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing. ",
+                "estado": "sdfsf",
+                "hora_inicio": "2023-02-10T21:49",
+                "hora_fin": "2023-02-15T18:49"
+            }
+        ]
+    },
+    {
+        "id_user": 2,
+        "name": "Nombre",
+        "surname": "Apellido",
+        "userName": "usuario",
+        "email": "email@email.com",
+        "pw": "2222",
+        "tareas": [
+            {
+                "titulo": "Beber agua",
+                "descripcion": "",
+                "estado": "A medias",
+                "hora_inicio": "2023-01-11T19:00:00.000Z",
+                "hora_fin": "2023-01-11T19:00:00.000Z"
+            },
+            {
+                "titulo": "Bailar chachacha",
+                "descripcion": "",
+                "estado": "",
+                "hora_inicio": "2023-01-11T19:00:00.000Z",
+                "hora_fin": "2023-01-11T19:00:00.000Z"
+            }
+        ]
+    },
+    {
+        "id_user": 3,
+        "name": "Afofaifa",
+        "surname": "L\u00f3pez",
+        "userName": "Alopez",
+        "email": "Alopez@email.com",
+        "pw": "4444",
+        "tareas": [
+            {
+                "titulo": "Bailar chachacha",
+                "descripcion": "",
+                "estado": "nueva",
+                "hora_inicio": "2023-01-11T19:00:00.000Z",
+                "hora_fin": "2023-01-11T19:00:00.000Z"
+            },
+            {
+                "titulo": "asdSAD",
+                "descripcion": "asdasdsdasd",
+                "estado": "finalizada",
+                "hora_inicio": "2023-02-11T20:34",
+                "hora_fin": "2023-02-18T20:31"
+            }
+        ]
+    },
+    {
+        "id_user": 4,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "user3",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": []
+    },
+    {
+        "id_user": 5,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "user4",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": []
+    },
+    {
+        "id_user": 6,
+        "name": "sdads",
+        "surname": "asdsdfsdfsdf",
+        "userName": "user5",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "1234",
+        "tareas": [
+            {
+                "titulo": "sdfdsf",
+                "descripcion": "sdfsdf",
+                "estado": "sdfsdfsfd",
+                "hora_inicio": "2023-03-03T15:14",
+                "hora_fin": "2023-02-17T10:14"
+            },
+            {
+                "titulo": "sdfsdfsdf",
+                "descripcion": "sdfsfd",
+                "estado": "sdfsf",
+                "hora_inicio": "2023-02-10T21:49",
+                "hora_fin": "2023-02-15T18:49"
+            },
+            {
+                "titulo": "adad",
+                "descripcion": "asdasdasd",
+                "estado": "nueva",
+                "hora_inicio": "2023-02-11T17:41",
+                "hora_fin": "2023-02-11T09:41"
+            }
+        ]
+    },
+    {
+        "id_user": 7,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "user6",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": []
+    },
+    {
+        "id_user": 8,
+        "name": "Rodri",
+        "surname": "Saiz",
+        "userName": "rodrisaiz@email.com",
+        "email": "rodrisaiz@email.com",
+        "pw": "6666",
+        "tareas": []
+    },
+    {
+        "id_user": 9,
+        "name": "asdas",
+        "surname": "asdad",
+        "userName": "user7",
+        "email": "dffgbfg",
+        "pw": "1234",
+        "tareas": []
+    },
+    {
+        "id_user": 10,
+        "name": "Pepito",
+        "surname": "Grillo",
+        "userName": "pepitogrillo",
+        "email": "pgrillo@email.com",
+        "pw": "1234",
+        "tareas": []
+    },
+    {
+        "id_user": 11,
+        "name": "wdaqwd",
+        "surname": "wdwd",
+        "userName": "wdwd",
+        "email": "wdwdwd@sadasd.ad",
+        "pw": "wdwdwd",
+        "tareas": []
+    }
+]
