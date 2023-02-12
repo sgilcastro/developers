@@ -1,9 +1,25 @@
+<?php include ROOT_PATH.'/app/views/layouts/header.php';?>
+
 <?php
   $user = $this->_task;
-
 ?>
 
-<?php include ROOT_PATH.'/app/views/layouts/header.php';?>
+<!-- <body>
+    <form action="/web/taskedit" method="POST">
+    Titulo:<input name="newtitulo" type="text" placeholder=<?php echo $user['titulo'];?> ><br>
+    Descripcio:<input name="newdescripcion" type="text" placeholder=<?php echo $user['descripcion'];?>><br>
+    Estado:<input name="newestado" type="text" placeholder=<?php echo $user['estado'];?>><br>
+    Hora de inicio:<input name="newhora_inicio" type="text" placeholder=<?php echo $user['hora_inicio'];?>><br>
+    Hora de fin:<input name="newhora_fin" type="password" placeholder=<?php echo $user['hora_fin'];?>><br>
+  
+    </select><br>
+    <input type="submit" value="Enviar">
+    </form>
+    <form action="/web/deleteuser" method="POST">
+    </select><br>
+    <input type="submit" value="Delete user">
+  </body> -->
+
 
   <body class="bg-gray-100">
     <section>
@@ -51,7 +67,12 @@
                     class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
 
             </form>
-         
+            <form action="/web/deleteuser" method="POST" class="py-5">
+            <button type="submit" name="submit" value="Enviar"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+
+            </form>
+
             <div class="text-sm font-medium text-gray-500 dark:text-gray-300 py-5 text-right">
                 <a href="/web/home"
                         class="text-blue-700 hover:underline dark:text-blue-500" >Volver al listado de tareas</a>
