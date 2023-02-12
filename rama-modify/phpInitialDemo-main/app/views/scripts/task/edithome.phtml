@@ -1,0 +1,82 @@
+<?php
+  $user = $this->_task;
+
+?>
+
+<?php include ROOT_PATH.'/app/views/layouts/header.php';?>
+
+<!-- 
+  <body>
+    <form action="/web/taskedit" method="POST">
+    Titulo:<input name="newtitulo" type="text" placeholder=<?php echo $user['titulo'];?> /><br>
+    Descripcio:<input name="newdescripcion" type="text" placeholder=<?php echo $user['descripcion'];?>><br>
+    Estado:<input name="newestado" type="text" placeholder=<?php echo $user['estado'];?>><br>
+    Hora de inicio:<input name="newhora_inicio" type="text" placeholder=<?php echo $user['hora_inicio'];?>><br>
+    Hora de fin:<input name="newhora_fin" type="password" placeholder=<?php echo $user['hora_fin'];?>><br>
+    <input type="submit" value="Enviar">
+    </form>
+    <form action="/web/deleteuser" method="POST">
+
+    <input type="submit" value="Delete user">
+  </body> 
+-->
+
+  <body class="bg-gray-100">
+    <section>
+        <div class="max-w-2xl mx-auto my-16 bg-white px-10 py-5">
+            <h1 class="text-xl font-medium text-gray-900 dark:text-white py-5">Crear tarea</h1>
+            
+
+            <form action="/web/taskedit" method="POST">
+            <div  class="mb-6">
+                        <label for="titulo"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Título</label>
+                        <input type="text" id="titulo" name="titulo"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="<?php echo $user['titulo'];?>" ></input>
+                    </div>
+                    <div>
+                        <label for="descripcion"
+                            class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Descripción</label>
+                        <textarea type="textarea" id="descripcion" name="descripcion"
+                            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                            placeholder="<?php echo $user['descripcion'];?>" ></textarea>
+                    </div>
+                <div class="mb-6">
+                    <label for="estado"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Estado</label>
+                        <select name="estado" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
+                            <option value="<?php echo $user['estado'];?>" selected><?php echo $user['estado'];?></option>  
+                            <option value="nueva">Nueva</option>
+                          <option value="en_curso">En curso</option>
+                          <option value="finalizada">Finalizada</option>
+                        </select>
+                </div>
+                <div class="mb-6">
+                    <label for="hora_inicio" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fecha de inicio</label>
+                    <input type="datetime-local" id="hora_inicio" name="hora_inicio"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="<?php echo $user['hora_inicio'];?>" ></input>
+                </div>
+                <div class="mb-6">
+                    <label for="hora_fin"
+                        class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Fecha de fin</label>
+                    <input type="datetime-local" id="hora_fin" name="hora_fin"
+                        class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"
+                        placeholder="<?php echo $user['hora_fin'];?>" ></input>
+                </div>
+                <button type="submit" name="submit" value="Enviar"
+                    class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+
+            </form>
+            <div class="text-sm font-medium text-gray-500 dark:text-gray-300 py-5 text-right">
+                <a href="/web/home"
+                        class="text-blue-700 hover:underline dark:text-blue-500" >Volver al listado de tareas</a>
+            </div>
+        </div>
+
+    </section>
+ 
+</body>
+
+</html>
