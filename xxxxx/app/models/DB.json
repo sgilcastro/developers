@@ -1,0 +1,170 @@
+[
+    {
+        "id_user": 1,
+        "name": "Susana",
+        "surname": "Gil",
+        "userName": "sgil",
+        "email": "susanagilcastro@gmail.com",
+        "pw": "1111",
+        "tareas": [
+            {
+                "titulo": "Mirar apuntes php",
+                "descripcion": "",
+                "estado": "Pendiente",
+                "hora_inicio": "2023-01-11",
+                "hora_fin": "2023-01-15"
+            },
+            {
+                "titulo": "<xzx<xsadas",
+                "descripcion": "dasfsfdfdfsfs",
+                "estado": "En curso",
+                "hora_inicio": "2023-02-10",
+                "hora_fin": "2023-02-25"
+            },
+            {
+                "titulo": "cascsd",
+                "descripcion": "sdcsdcsdc",
+                "estado": "En curso",
+                "hora_inicio": "2023-02-12",
+                "hora_fin": "2023-02-17"
+            },
+            {
+                "titulo": "cvcbfg f",
+                "descripcion": "gfgfghb",
+                "estado": "En curso",
+                "hora_inicio": "2023-02-12",
+                "hora_fin": "2023-02-23"
+            },
+            {
+                "titulo": "dsfsdfs",
+                "descripcion": "fdsfdsdf",
+                "estado": "En curso",
+                "hora_inicio": "2023-02-12",
+                "hora_fin": "2023-02-24"
+            }
+        ]
+    },
+    {
+        "id_user": 2,
+        "name": "Nombre",
+        "surname": "Apellido",
+        "userName": "usuario",
+        "email": "email@email.com",
+        "pw": "2222",
+        "tareas": [
+            {
+                "titulo": "Beber agua",
+                "descripcion": "",
+                "estado": "A medias",
+                "hora_inicio": "2023-01-11",
+                "hora_fin": "2023-01-18"
+            },
+            {
+                "titulo": "Bailar chachacha",
+                "descripcion": "",
+                "estado": "",
+                "hora_inicio": "2023-01-17",
+                "hora_fin": "2023-02-11"
+            }
+        ]
+    },
+    null,
+    {
+        "id_user": 4,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "asddsfssdfscd",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": []
+    },
+    {
+        "id_user": 5,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "asddsfssdfscd",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": []
+    },
+    {
+        "id_user": 6,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "asddsfssdfscd",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": [
+            {
+                "titulo": "sdfdsf",
+                "descripcion": "sdfsdf",
+                "estado": "sdfsdfsfd",
+                "hora_inicio": "2023-03-03",
+                "hora_fin": "2023-02-17"
+            }
+        ]
+    },
+    {
+        "id_user": 7,
+        "name": "dsfsd",
+        "surname": "asdsdfsdfsdf",
+        "userName": "asddsfssdfscd",
+        "email": "vc zxczxdfsdggzx",
+        "pw": "zxccx",
+        "tareas": []
+    },
+    {
+        "id_user": 8,
+        "name": "Rodri",
+        "surname": "Saiz",
+        "userName": "rodrisaiz@email.com",
+        "email": "rodrisaiz@email.com",
+        "pw": "6666",
+        "tareas": []
+    },
+    {
+        "id_user": 9,
+        "name": "asdas",
+        "surname": "asdad",
+        "userName": "dcfgdg",
+        "email": "dffgbfg",
+        "pw": "1234",
+        "tareas": []
+    },
+    {
+        "id_user": 10,
+        "name": "Pepito",
+        "surname": "Grillo",
+        "userName": "pepitogrillo",
+        "email": "pgrillo@email.com",
+        "pw": "1234",
+        "tareas": []
+    },
+    {
+        "id_user": 11,
+        "name": "scadasd",
+        "surname": "dsd",
+        "userName": "asdsd",
+        "email": "sfds@asdas.vv",
+        "pw": "1234",
+        "tareas": []
+    },
+    {
+        "id_user": 12,
+        "name": "",
+        "surname": "",
+        "userName": "sgilcastro",
+        "email": "",
+        "pw": "",
+        "tareas": []
+    },
+    {
+        "id_user": 13,
+        "name": "",
+        "surname": "",
+        "userName": "",
+        "email": "",
+        "pw": "",
+        "tareas": []
+    }
+]

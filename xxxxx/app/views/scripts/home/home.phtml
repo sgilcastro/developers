@@ -1,0 +1,98 @@
+<?php
+  $task = $this->_data["_data"];
+
+  $countTask = count($task);
+
+?>
+
+<?php include ROOT_PATH.'/app/views/layouts/header.php';?>
+
+
+<div class="flex flex-col">
+  <div class="overflow-x-auto sm:mx-0.5 lg:mx-0.5">
+
+      <div class="overflow-hidden">
+      <div class="relative bg-gray-200 overflow-x-auto border-black shadow-md sm:rounded-lg my-10 
+        text-sm font-medium text-lg text-gray-500 dark:text-gray-300 flex flex-col text-center ">
+      <div class="p-4"><h1 class=>Listado de tareas</h1> </div>
+        <div class="p-4 self-center"><img src="https://cdn-icons-png.flaticon.com/512/3789/3789946.png" class="mr-3 h-6 sm:h-9 " alt="Flowbite Logo" />
+        </div>
+        <table class="min-w-full table-fixed w-10">
+          <thead class="bg-gray-200 border-b">
+            <tr>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+              Título
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Descripción
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Estado
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Fecha inicio
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                Fecha fin
+              </th>
+              <th scope="col" class="text-sm font-medium text-gray-900 px-6 py-4 text-left">
+                
+              </th>
+
+            </tr>
+          </thead>
+
+       <tbody>
+                <?php  
+                for ($i = 0; $i <= ($countTask -1); $i++) {
+                  $contador = $i;
+                ?> 
+          <tr class="bg-white border-b transition duration-300 ease-in-out hover:bg-gray-100">
+              <td class="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900 text-left">
+              <?php  echo $task[$i]["titulo"]; ?>  
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap  text-left">
+              <?php  echo $task[$i]["descripcion"]; ?></p>
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-left">
+              <?php echo $task[$i]["estado"]; ?>  
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-left">
+              <?php  echo $task[$i]["hora_inicio"]; ?>  
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-left">
+              <?php  echo $task[$i]["hora_fin"]; ?>  
+              </td>
+              <td class="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap text-left">
+              <a href="/web/taskedithome?item=<?php echo $contador?>" class="font-medium text-blue-600 dark:text-blue-500 hover:underline">
+                Edit
+              </a>  
+              </td>
+            </tr>
+
+                  <?php
+                  }
+                  ?>
+
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+          <div clas="mt-5">
+            <div class="text-sm font-medium text-lg text-gray-500 dark:text-gray-300 px-5 text-center">
+              <a href="/web/taskhome" class="text-blue-700 hover:underline dark:text-blue-500">+ Añadir tarea</a>
+            </div>
+
+
+          </div>
+
+        </div>
+  
+
+</body>
+
+</html>
